@@ -10,7 +10,7 @@
 
   /* タイポグラフィ（フォントサイズ）  */
   --body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem); /* 16-18px */
-  --diaplay: clamp(4.5rem, 1.83rem + 11.34vw, 10rem); /* 72-160 */
+  --display: clamp(4.5rem, 1.83rem + 11.34vw, 10rem); /* 72-160 */
   --heading1: clamp(2rem, 1.3rem + 3vw, 4rem); /* 32-64px */
   --heading2: calc(var(--body) * 1.5); /* 24-27px */
   --heading3: calc(var(--body) * 1.2); /* 19.2-21.6px */
