@@ -1,12 +1,15 @@
+import Container from 'component/container'
 import Hero from 'component/hero'
 
 const Blog = () => {
   return (
     <>
-      <Hero
-        title='Blog'
-        subtitle='Recent Posts'
-      />
+      <Container>
+        <Hero
+          title='Blog'
+          subtitle='Recent Posts'
+        />
+      </Container>
     </>
   )
 }

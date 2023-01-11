@@ -1,12 +1,15 @@
+import Container from 'component/container'
 import Hero from 'component/hero'
 
 const Home = () => {
   return (
-    <Hero
-      title='CUBE'
-      subtitle='アップしていくサイト'
-      imageOn
-    />
+    <Container>
+      <Hero
+        title='CUBE'
+        subtitle='アップしていくサイト'
+        imageOn
+      />
+    </Container>
   )
 }
 
